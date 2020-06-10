@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21015E"
+    tools:context=".rangking.RangkingActivity">
+
+    <ImageView
+        android:id="@+id/sqr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_soal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="100dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/item"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/sqr"
+        app:layout_constraintRight_toRightOf="@+id/sqr"
+        app:layout_constraintTop_toTopOf="@+id/sqr"
+        app:layout_constraintBottom_toBottomOf="@+id/sqr"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:text="Lanjut>>>   "
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textAlignment="textEnd"
+        android:background="#000000"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/font"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

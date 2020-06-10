@@ -1,0 +1,335 @@
+<resources>
+    <string name="app_name">kidal</string>
+    <string name="buat_nama_kamu">BUAT NAMA KAMU</string>
+
+    <!-- Easy question1-->
+    <string name="question_1a">
+        Dimana letak Candi Kidal?
+    </string>
+    <string name="question_2a">
+        Candi Kidal merupakan peninggalan dari Kerajaan ?
+    </string>
+
+    <!-- Easy question2-->
+    <string name="question_3a">
+        Candi Kidal merupakan tanda penghormatan untuk Raja?
+    </string>
+    <string name="question_4a">
+        Candi Kidal merupakan candi tertua yang sudah ada sejak abad ke?
+    </string>
+
+    <!-- Easy question3 -->
+    <string name="question_5a">
+        Candi Kidal mempunyai symbol dengan arti?
+    </string>
+    <string name="question_6a">
+        Candi Kidal memiliki corak khas daerah?
+    </string>
+
+    <!-- Easy question4-->
+    <string name="question_7a">
+        Candi manakah yang memiliki usia paling tua yang terdapat di Jawa Timur?
+    </string>
+    <string name="question_8a">
+        Candi yang berada di Daerah Jawa Timur berfungsi sebagai tempat?
+    </string>
+
+    <!-- Easy question5-->
+    <string name="question_9a">
+        Siapakah Ayah dan Ibu dari Raja Anusapati?
+    </string>
+    <string name="question_10a">
+        Siapakah yang menjadi ayah tiri dari Raja Anusapati?
+    </string>
+
+    <!-- Easy question6-->
+    <string name="question_1b">
+        Berapa lama Raja Anusapati memerintah dan akhirnya wafat?
+     </string>
+    <string name="question_2b">
+        Candi Kidal memuat sebuah cerita yang berkisah tentang?
+    </string>
+
+    <!-- Easy question7-->
+    <string name="question_3b">
+        Di ruangan candi / garbhagrha terdapat araca yang berwujud?
+    </string>
+    <string name="question_4b">
+        Cerita Garudeya, cerita yang berisi pesan moral tentang?
+    </string>
+
+    <!-- Easy question8-->
+    <string name="question_5b">
+        Apa hubungan kisah Garudeya yang terdapat pada candi kidal dengan Raja Anusapti?
+    </string>
+    <string name="question_6b">
+        Candi Kidal memiliki tiga bagian yang terdiri dari?
+    </string>
+
+    <!-- Easy question9-->
+    <string name="question_7b">
+        Kepala Kala yang dipahat di atas pintu masuk dan bilik-bilik candi merupakan aspek dari Dewa?
+    </string>
+    <string name="question_8b">
+        Hiasan kepala kala yang memiliki mata melotot, mulut terbuka dan memiliki dua taring tersebut meiliki fungsi untuk?
+    </string>
+
+    <!-- Easy question10-->
+    <string name="question_9b">
+        Dimana Garudeya bisa mendapatkan air suci Amertha itu?
+    </string>
+    <string name="question_10b">
+        Syarat apa yang diberikan oleh Dewa Wisnu untuk Garudeya mendapatkan air suci amertha?
+    </string>
+
+    <!-- Medium question1-->
+    <string name="question_1c">
+        Di atap candi terdiri atas 3 tingkat yang semakin keatas semakin kecil, bagian atas dulu disungging dengan batu?
+    </string>
+    <string name="question_2c">
+        Pada relief Garudeya pertama, kedua, dan ketiga manakah yang miliki keindahan dan masih utuh?
+    </string>
+
+    <!-- Medium question2-->
+    <string name="question_3c">
+        Dengan bekal air suci amertha, akhirnya Garudeya membebaskan ibunya dari perbudakan atas kardu, terdapat pada relief berapakah?
+    </string>
+    <string name="question_4c">
+        Dari kisah Garudeya, Resi Kesiapa memiliki dua orang istri yang bernama Kadru dan Winata mereka mempunyai anak angkat. Siapa saja anak angkat mereka?
+    </string>
+
+    <!-- Medium question3-->
+    <string name="question_5c">
+        Raja Anusapati meninggal, karena dibunuh oleh Panji Tohjaya sebagai bagian dari perebutan kerajaan Singhasari diyakini sebagai kutukan dari Mpu?
+    </string>
+    <string name="question_6c">
+        Terdapat arca apa yang ada pada kaki anak tangga dalam candi kidal?
+    </string>
+
+    <!-- Medium question4-->
+    <string name="question_7c">
+        Dari makam Raja Anusapati memiliki sifat “berlawan arah jarum jam, dari kiri ke kanan” yang dalam bahasa sansekerta disebut dengan?
+    </string>
+    <string name="question_8c">
+        Kardu mengajak Winata bertaruh warna ekor kuda Uccaihswara yang sering melewati rumah. Apa warna ekor kuda yang mereka cari?
+    </string>
+
+    <!-- Medium question5-->
+    <string name="question_9c">
+        Ketika Garudeya menanyakan apa syarat agar ibunya bisa bebas dari perbudakan ini, tiga ekor ular tersbut meminta untuk dicarikan apa?
+    </string>
+    <string name="question_10c">
+        Apa tujuan Ken Arok membunuh Tunggul Ametung?
+    </string>
+
+    <!-- Medium question6-->
+    <string-array name="ques_1a">
+        <item> Jawa Barat </item>
+        <item> DKI Jakarta </item>
+        <item> Jawa Timur </item>
+        <item> Bali </item>
+    </string-array>
+    <string-array name="ques_2a">
+        <item> Majapahit </item>
+        <item> Kediri </item>
+        <item> Singhasari </item>
+        <item> Mataram </item>
+    </string-array>
+
+    <!-- Medium question7-->
+    <string-array name="ques_3a">
+        <item> Anuspati </item>
+        <item> Brawijaya </item>
+        <item> Ken Arok </item>
+        <item> Tunggul Ametung </item>
+    </string-array>
+    <string-array name="ques_4a">
+        <item> 1268M </item>
+        <item> 1339M </item>
+        <item> 1284M </item>
+        <item> 1248M </item>
+    </string-array>
+
+    <!-- Medium question8-->
+    <string-array name="ques_5a">
+        <item> Perebutan tahta </item>
+        <item> Semangat yang membara </item>
+        <item> Pembebasan dari perbudakan </item>
+        <item> Peperangan tanpa henti </item>
+    </string-array>
+    <string-array name="ques_6a">
+        <item> Jawa Tengah </item>
+        <item> Jawa Timur </item>
+        <item> Jawa Barat </item>
+        <item> DI Yogyakarta </item>
+    </string-array>
+
+    <!-- Medium question9-->
+    <string-array name="ques_7a">
+        <item> Candi Kidal </item>
+        <item> Candi Djago </item>
+        <item> Candi Badut </item>
+        <item> Candi Djawi </item>
+    </string-array>
+    <string-array name="ques_8a">
+        <item> Pelaksanaan pesta umatnya </item>
+        <item> Tempat berfoya-foya </item>
+        <item> Tempat memuliakan rajanya </item>
+        <item> Pelaksanaan adat daerah </item>
+    </string-array>
+
+    <!-- Medium question10-->
+    <string-array name="ques_9a">
+        <item> Ken Arok dan Kendedes </item>
+        <item> Ken Arok dan Ken Umang </item>
+        <item> Tunggul Ametung dan Ken Umang </item>
+        <item> Tunggul Ametung dan Kendedes </item>
+    </string-array>
+    <string-array name="ques_10a">
+        <item> Tunggul Ametung </item>
+        <item> Panji Tohjaya </item>
+        <item> Ken Arok </item>
+        <item> Mpu Gandring </item>
+    </string-array>
+
+    <!-- Hard question1-->
+    <string-array name="ques_1b">
+        <item> (1228-1248) </item>
+        <item> (1229-1238) </item>
+        <item> (1227-1248) </item>
+        <item> (1220-1238) </item>
+    </string-array>
+    <string-array name="ques_2b">
+        <item> Malin Kundang </item>
+        <item> Mahabarata </item>
+        <item> Gundala </item>
+        <item> Garudeya </item>
+    </string-array>
+
+    <!-- Hard question2-->
+    <string-array name="ques_3b">
+        <item> Siwa Mahadewa </item>
+        <item> Iswara </item>
+        <item> Brahma </item>
+        <item> Wisnu </item>
+    </string-array>
+    <string-array name="ques_4b">
+        <item> Kasih sayang orang tua </item>
+        <item> Pembebasan dari perbudakan </item>
+        <item> Jangan mudah menyerah </item>
+        <item> Tekad yang membara </item>
+    </string-array>
+
+    <!-- Hard question3-->
+    <string-array name="ques_5b">
+        <item> Untuk mensucikan Ibunya kembali dan terbebas dari nestapa </item>
+        <item>Untuk menjadikan symbol dari raja Anusapati </item>
+        <item> Untuk menceritakan sejarah hidup raja Anusapati </item>
+        <item> Untuk memberi pesan moral </item>
+    </string-array>
+    <string-array name="ques_6b">
+        <item> Paha, Tubuh, dan Atap </item>
+        <item> Kaki, Tangan, dan Kepala </item>
+        <item> Kaki, Tubuh, dan Atap </item>
+        <item> Jari, Tangan, dan Kepala </item>
+    </string-array>
+
+    <!-- Hard question4-->
+    <string-array name="ques_7b">
+        <item> Wisnu </item>
+        <item> Siwa </item>
+        <item> Ganesha </item>
+        <item> Iswara </item>
+    </string-array>
+    <string-array name="ques_8b">
+        <item> Penyambut tamu </item>
+        <item> Hiasan </item>
+        <item> Pajangan </item>
+        <item> Penjaga tempat suci </item>
+    </string-array>
+
+    <!-- Hard question5-->
+    <string-array name="ques_9b">
+        <item> Khayangan </item>
+        <item> Sebuah Goa </item>
+        <item> Lereng Gunung </item>
+        <item> Laut </item>
+    </string-array>
+    <string-array name="ques_10b">
+        <item> Menjadi kendaraan tunggangan Dewa Brahma </item>
+        <item> Menjadi kendaraan tunggangan Dewa Wisnu </item>
+        <item> Memeras susu sapi </item>
+        <item> Merawat tumbuhan di Bumi </item>
+    </string-array>
+
+    <!-- Hard question6-->
+    <string-array name="ques_1c">
+        <item> Batu Akik </item>
+        <item> Batu Bata </item>
+        <item> Batu Berlian Kecil </item>
+        <item> Batu Kapur </item>
+    </string-array>
+    <string-array name="ques_2c">
+        <item> Relief pertama </item>
+        <item> Relief kedua </item>
+        <item> Relief ketiga </item>
+        <item> Relief keempat </item>
+    </string-array>
+
+    <!-- Hard question7-->
+    <string-array name="ques_3c">
+        <item> Relief pertama </item>
+        <item> Relief kedua </item>
+        <item> Relief ketiga </item>
+        <item> Relief keempat </item>
+    </string-array>
+    <string-array name="ques_4c">
+        <item> Seekor kuda dan Elang </item>
+        <item> Dua ekor ular dan Garuda </item>
+        <item> Garuda dan Elang </item>
+        <item> Tiga ekor ular dan Garuda </item>
+    </string-array>
+
+    <!-- Hard question8-->
+    <string-array name="ques_5c">
+        <item> Mpu Gandring </item>
+        <item> Mpu Tantular </item>
+        <item> Mpu Weda </item>
+        <item> Mpu Wisesa </item>
+    </string-array>
+    <string-array name="ques_6c">
+        <item> Sri Ganhi </item>
+        <item> Siwa Mahadewa </item>
+        <item> Brahmana  </item>
+        <item> Mahakala dan Nandiswara  </item>
+    </string-array>
+
+    <!-- Hard question9-->
+    <string-array name="ques_7c">
+        <item> Pasawya </item>
+        <item> Prasawya </item>
+        <item> Paradaksina </item>
+        <item> Uccaihswara </item>
+    </string-array>
+    <string-array name="ques_8c">
+        <item> Hijau </item>
+        <item> Kuning </item>
+        <item> Putih </item>
+        <item> Hitam </item>
+    </string-array>
+
+    <!-- Hard question10-->
+    <string-array name="ques_9c">
+        <item> Air susu </item>
+        <item> Air jahe </item>
+        <item> Air laut </item>
+        <item> Air suci Amertha </item>
+    </string-array>
+    <string-array name="ques_10c">
+        <item> Untuk menjadi Raja dari Singhasari </item>
+        <item> Untuk membuktikan dirinya bisa menjadi pengguasa </item>
+        <item> Untuk memperistri Kendedes dan mendapatkan gelar raja Singhasari </item>
+        <item> Untuk mengalahkan Penjajah </item>
+    </string-array>
+
+</resources>
