@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,7 +22,7 @@ public class BenarActivity extends AppCompatActivity {
     TextView lanjut;
     Integer index = 0;
     String level;
-    //MediaPlayer audio;
+    MediaPlayer playerCorrect;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,7 @@ public class BenarActivity extends AppCompatActivity {
         lanjut = (TextView)findViewById(R.id.button);
         index = getIntent().getIntExtra("index",0);
         level = getIntent().getStringExtra("level");
-
+        playCorrectSound();
 
         lanjut.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +52,23 @@ public class BenarActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void playCorrectSound()
+    {
+        Handler handler = new Handler();
+        if(playerCorrect == null){
+            playerCorrect = MediaPlayer.create(this,R.raw.benar);
+        }
+        playerCorrect.start();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if(playerCorrect!=null){
+                    playerCorrect.release();
+                    playerCorrect = null;
+                }
+            }
+        }, 3000);
     }
     @Override
     public void onBackPressed() {

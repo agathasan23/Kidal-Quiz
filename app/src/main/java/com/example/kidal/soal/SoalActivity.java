@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -33,7 +34,7 @@ public class SoalActivity extends AppCompatActivity {
     Button ans4;
     Integer index;
     SharedPref sharedpref;
-    MediaPlayer audio;
+    MediaPlayer playerCorrect, playerWrong;
     TextView textViewCountDown;
 
     private ColorStateList textColorDefaultCD;
@@ -214,7 +215,7 @@ public class SoalActivity extends AppCompatActivity {
         ans4 = (Button)findViewById(R.id.button5);
         sharedpref = new SharedPref(getApplicationContext());
 
-        textColorDefaultCD = textViewCountDown.getTextColors();
+//        textColorDefaultCD = textViewCountDown.getTextColors();
         //audio = MediaPlayer.create(this, R.raw.benar);
         //audio.setLooping(true);
         //audio.setVolume(1,1);
@@ -343,7 +344,7 @@ public class SoalActivity extends AppCompatActivity {
             startActivity(intent);
 
             timeLeftInMillis = COUNTDOWN_IN_MILLIS;
-            startCountDown();
+            //startCountDown();
         }
         else
         {
@@ -442,6 +443,7 @@ public class SoalActivity extends AppCompatActivity {
             textViewCountDown.setTextColor(textColorDefaultCD);
         }
     }
+
 
     @Override
     public void onBackPressed() {

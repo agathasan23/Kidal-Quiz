@@ -3,7 +3,9 @@ package com.example.kidal.salah;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -20,6 +22,7 @@ public class SalahActivity extends AppCompatActivity {
     TextView lanjut;
     Integer index = 0;
     String level;
+    MediaPlayer playerWrong;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,8 @@ public class SalahActivity extends AppCompatActivity {
 
         index = getIntent().getIntExtra("index",0);
         level = getIntent().getStringExtra("level");
+        playerWrongSound();
+
         lanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,6 +54,23 @@ public class SalahActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void playerWrongSound()
+    {
+        Handler handler = new Handler();
+        if(playerWrong == null){
+            playerWrong = MediaPlayer.create(this,R.raw.salah);
+        }
+        playerWrong.start();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if(playerWrong!=null){
+                    playerWrong.release();
+                    playerWrong = null;
+                }
+            }
+        }, 3000);
     }
     @Override
     public void onBackPressed() {
