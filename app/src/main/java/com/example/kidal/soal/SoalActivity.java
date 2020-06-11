@@ -256,8 +256,8 @@ public class SoalActivity extends AppCompatActivity {
                     checkAnswer(3);
                 }
             });
-            timeLeftInMillis = COUNTDOWN_IN_MILLIS;
-            startCountDown();
+            //timeLeftInMillis = COUNTDOWN_IN_MILLIS;
+            //startCountDown();
         }
         else if (level.equals("medium"))
         {
@@ -293,7 +293,7 @@ public class SoalActivity extends AppCompatActivity {
                 }
             });
             timeLeftInMillis = COUNTDOWN_IN_MILLIS;
-            startCountDown();
+            //startCountDown();
         }
         else if (level.equals("hard"))
         {
@@ -328,8 +328,8 @@ public class SoalActivity extends AppCompatActivity {
                     checkAnswer3(3);
                 }
             });
-            timeLeftInMillis = COUNTDOWN_IN_MILLIS;
-            startCountDown();
+            //timeLeftInMillis = COUNTDOWN_IN_MILLIS;
+            //startCountDown();
         }
     }
 
@@ -424,7 +424,7 @@ public class SoalActivity extends AppCompatActivity {
             public void onFinish() {
                 timeLeftInMillis = 0;
                 updateCountDown();
-                checkAnswer(1);
+                //checkAnswer(1);
             }
         }.start();
     }
