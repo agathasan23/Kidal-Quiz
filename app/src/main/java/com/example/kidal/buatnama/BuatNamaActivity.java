@@ -53,11 +53,12 @@ public class BuatNamaActivity extends AppCompatActivity {
                     backsound = null;
                 }
             }
-        }, 15000);
+        }, 6000);
     }
     @Override
     public void onBackPressed() {
         finishAffinity();
+        backsound.stop();
         sharedpref.setScore(0);
 
     }
