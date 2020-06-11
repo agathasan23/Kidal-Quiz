@@ -8,10 +8,12 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.example.kidal.R;
+import com.example.kidal.buatnama.SharedPref;
 import com.example.kidal.menu.MenuActivity;
 
 public class LoadingActivity extends AppCompatActivity {
     MediaPlayer backsound;
+    SharedPref sharedpref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,8 +56,9 @@ public class LoadingActivity extends AppCompatActivity {
                     backsound = null;
                 }
             }
-        }, 5000);
+        }, 4000);
     }
+
     @Override
     public void onBackPressed() {
         finishAffinity();

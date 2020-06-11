@@ -53,7 +53,7 @@ public class BuatNamaActivity extends AppCompatActivity {
                     backsound = null;
                 }
             }
-        }, 6000);
+        }, 7000);
     }
     @Override
     public void onBackPressed() {

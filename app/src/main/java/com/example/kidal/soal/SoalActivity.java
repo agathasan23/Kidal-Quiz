@@ -213,13 +213,11 @@ public class SoalActivity extends AppCompatActivity {
         ans2 = (Button)findViewById(R.id.button3);
         ans3 = (Button)findViewById(R.id.button4);
         ans4 = (Button)findViewById(R.id.button5);
+        textViewCountDown = (TextView)findViewById(R.id.textViewCountDown);
         sharedpref = new SharedPref(getApplicationContext());
 
-//        textColorDefaultCD = textViewCountDown.getTextColors();
-        //audio = MediaPlayer.create(this, R.raw.benar);
-        //audio.setLooping(true);
-        //audio.setVolume(1,1);
-        //audio.start();
+       textColorDefaultCD = textViewCountDown.getTextColors();
+
 
         index = getIntent().getIntExtra("index", 0);
         nomor.setText(String.valueOf(index+1));
@@ -258,6 +256,8 @@ public class SoalActivity extends AppCompatActivity {
                     checkAnswer(3);
                 }
             });
+            timeLeftInMillis = COUNTDOWN_IN_MILLIS;
+            startCountDown();
         }
         else if (level.equals("medium"))
         {
@@ -292,6 +292,8 @@ public class SoalActivity extends AppCompatActivity {
                     checkAnswer2(3);
                 }
             });
+            timeLeftInMillis = COUNTDOWN_IN_MILLIS;
+            startCountDown();
         }
         else if (level.equals("hard"))
         {
@@ -326,6 +328,8 @@ public class SoalActivity extends AppCompatActivity {
                     checkAnswer3(3);
                 }
             });
+            timeLeftInMillis = COUNTDOWN_IN_MILLIS;
+            startCountDown();
         }
     }
 
@@ -343,8 +347,7 @@ public class SoalActivity extends AppCompatActivity {
             intent.putExtra("level", level);
             startActivity(intent);
 
-            timeLeftInMillis = COUNTDOWN_IN_MILLIS;
-            //startCountDown();
+
         }
         else
         {
@@ -421,6 +424,7 @@ public class SoalActivity extends AppCompatActivity {
             public void onFinish() {
                 timeLeftInMillis = 0;
                 updateCountDown();
+                checkAnswer(1);
             }
         }.start();
     }
